@@ -13,6 +13,9 @@ def main_page():
     canvas.pack(fill="both", expand=True)
     canvas.create_image(0, 0, image=bg_image, anchor="nw")
     canvas.image = bg_image
+    lbl_game_name =  tk.Label(window, text="Number Guessing Game", font=("Roboto", 22, "bold"), fg="white", bg="midnight blue", bd=5)
+    lbl_game_name.place(x=240, y=30)
+
     window.mainloop()
 
 if __name__ == "__main__":
