@@ -15,7 +15,6 @@ def play():
                              bg="midnight blue", bd=5)
     lbl_game_name.place(x=240, y=30)
     window.mainloop()
-'''
 def game_history():
     window = tk.Toplevel()
     window.title("Number Guessing Game")
@@ -45,7 +44,6 @@ def game_exit():
                              bg="midnight blue", bd=5)
     lbl_game_name.place(x=240, y=30)
     window.mainloop()
-'''
 def main_page():
     global window
     window = tk.Tk()
