@@ -1,6 +1,14 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 
+def play():
+    pass
+
+def game_history():
+    pass
+
+def game_exit():
+    pass
 
 def main_page():
     global window
@@ -15,7 +23,12 @@ def main_page():
     canvas.image = bg_image
     lbl_game_name =  tk.Label(window, text="Number Guessing Game", font=("Roboto", 22, "bold"), fg="white", bg="midnight blue", bd=5)
     lbl_game_name.place(x=240, y=30)
-
+    button1 = tk.Button(window, text="PLAY", width=25, font=("Roboto", 18, "bold"),command=play, bg="aquamarine", bd=5)
+    button2 = tk.Button(window, text="HISTORY", width=25, font=("Roboto", 18, "bold"), command=game_history, bg="aquamarine", bd=5)
+    button3 = tk.Button(window, text="EXIT", width=25, font=("Roboto", 18, "bold"), command=game_exit, bg="aquamarine", bd=5)
+    button1.place(x=220, y=150)
+    button2.place(x=220, y=230)
+    button3.place(x=220, y=310)
     window.mainloop()
 
 if __name__ == "__main__":
