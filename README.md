@@ -1,5 +1,4 @@
 # Number_Guessing_Game
-<br>
 <h3>Description:</h3> 
 Developed a Number Guessing Game using Python and Tkinter, integrating MS SQL Server for data storage and management. The game allows users to guess a random number with feedback on their guesses, tracking the number of attempts.
 <br>
